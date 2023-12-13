@@ -163,50 +163,100 @@ main section .purple #open{
 
 /* fine prima section */
 
-/* inizio section bg-white */
+/* inizio prima section bg-white */
+
+main .container{
+    height: 500px;
+}
 
 .bg-white{
     background-color: white;
 }
 
-main .container{
-    height: 350px;
-}
-
-
-main .container .lightblue{
-    flex-grow: 3;
-    background-image: url(../img/item1.svg);
+main .container .img{
+    width: 65%;
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+main .container .text{
+    width: 35%;
+    text-align: left;
+    font-family: 'Whitney', sans-serif;
+}
+
+main .bg-white .container .item1{
+    background-image: url(../img/item1.svg);
+}
+
+main .container .item1-text{
+    padding-top: 15px;
+    padding-right: 90px;
 
 }
 
-main .container .lightpink{
-    flex-grow: 2;
+h2{
+    margin-bottom: 15px;
+    font-size: 45px;
 }
 
-main .container .lightpink h2{
-    text-align: center;
-    font-size: 23px;
+p{
+    line-height: 25px;
+    font-size: 20px;
 }
 
-/* fine section bg-white */
+/* fine prima section bg-white */
 
-/* inizio section bg-grey */
+/* inizio prima section bg-grey */
 
 main .bg-grey{
     background-color: #D3D3D3;
 }
 
-.green{
-    max-width: 1000px;
-    width: 100%;
-    height: 800px;
-    background-color: #228B22;
+main .bg-grey .container .item2{
+    background-image: url(../img/item2.svg);
 }
 
-/* fine section bg-grey */
+main .bg-grey .container .item2-text{
+    padding-top: 35px;
+    padding-right: 40px;
+}
+
+/* fine prima section bg-grey */
+
+/* inizio seconda section bg-white */
+
+main .bg-white .container .item3{
+    background-image: url(../img/item3.svg);
+}
+
+main .bg-white .container .item3-text{
+    padding-top: 15px;
+    padding-right: 90px;
+}
+
+
+/* fine seconda section bg-white */
+
+/* inizio seconda section bg-grey */
+
+.green{
+    max-width: 1200px;
+    width: 100%;
+    padding: 100px;
+    font-family: 'Whitney', sans-serif;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/* fine seconda section bg-grey */
 
 /* inizio section bg-black */
 
