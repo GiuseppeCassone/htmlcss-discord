@@ -14,12 +14,16 @@ header{
 
 .container{
     display: flex;
-    max-width: 1000px;
+    max-width: 1200px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
 
-    font-family: sans-serif;
+    font-family: 'Whitney', sans-serif;
+    font-family: 'Whitney Semibold', sans-serif;
+    font-family: 'Whitney Book', sans-serif;
+    font-family: 'Whitney Light', sans-serif;
+
 }
 
 
@@ -38,6 +42,8 @@ header .container div:nth-child(2){
     flex-grow: 5;
     padding: 5px;
     text-align: center;
+    font-family: 'Whitney Semibold', sans-serif;
+
 
 }
 
@@ -61,9 +67,8 @@ header .container div:last-child{
 
 header .container div:last-child{
     width: 70px;
-    height: 45px;
-    border-radius: 42%;
-    padding-top: 15px;
+    height: 40px;
+    border-radius: 18px;
 
     background-color: white;
 }
@@ -71,6 +76,8 @@ header .container div:last-child{
 header .container div:last-child a{
     text-decoration: none;
     color: black;
+    font-family: 'Whitney Semibold', sans-serif;
+
 }
 
 
@@ -90,17 +97,70 @@ main section{
 
 /* inizio prima section */
 
-main section:first-child{ 
+main section:first-child{
+    height: 600px; 
     border-bottom: 2px solid #77a4f3;
     background-image: url(../img/jumbo.png);
     background-size: cover;
 }
 
 .purple{
-    width: 650px;
-    height: 250px;
+    width: 820px;
+    padding-top: 60px;
+    text-align: center;
+    color: white;
+    font-size: 23px;
+}
 
-    background-color: #EE82EE;  
+.purple h1{
+    margin-bottom: 35px;
+    font-size: 70px;
+    font-family: 'Whitney', sans-serif;
+
+}
+
+.purple p{
+    margin-bottom: 20px;
+    line-height: 40px;
+    font-family: 'Whitney', sans-serif;
+
+
+    
+}
+
+main section .purple button{
+    height: 50px;
+    padding-bottom: 8px;
+    border-radius: 24px;
+    font-family: 'Whitney', sans-serif;
+    font-size: 23px;
+    margin: 0px 15px;
+
+}
+
+main section .purple #download{
+    width: 250px;
+    border-color: white;
+    border-radius: 24px;
+    background-color: white;
+
+}
+
+main section .purple #download span{
+    padding-right: 10px;
+    font-size: 23px;
+    font-weight: bold;
+   
+
+}
+
+main section .purple #open{
+    width: 350px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-color: #23272A;
+    background-color: #23272A;
+    color: white;
 }
 
 /* fine prima section */
