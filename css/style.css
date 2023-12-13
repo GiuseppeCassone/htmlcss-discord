@@ -98,30 +98,30 @@ main section{
 /* inizio prima section */
 
 main section:first-child{
-    height: 600px; 
+    height: 500px; 
     border-bottom: 2px solid #77a4f3;
     background-image: url(../img/jumbo.png);
     background-size: cover;
 }
 
 .purple{
-    width: 820px;
-    padding-top: 60px;
+    width: 650px;
+    padding-top: 70px;
     text-align: center;
     color: white;
-    font-size: 23px;
+    font-size: 18px;
 }
 
 .purple h1{
     margin-bottom: 35px;
-    font-size: 70px;
+    font-size: 50px;
     font-family: 'Whitney', sans-serif;
 
 }
 
 .purple p{
     margin-bottom: 20px;
-    line-height: 40px;
+    line-height: 25px;
     font-family: 'Whitney', sans-serif;
 
 
@@ -130,17 +130,17 @@ main section:first-child{
 
 main section .purple button{
     height: 50px;
-    padding-bottom: 8px;
     border-radius: 24px;
     border: none;
     font-family: 'Whitney', sans-serif;
-    font-size: 23px;
+    font-size: 18px;
     margin: 0px 15px;
 
 }
 
 main section .purple #download{
-    width: 250px;
+    width: 180px;
+    padding: 8px 10px;
     border-color: white;
     border-radius: 24px;
     background-color: white;
@@ -149,14 +149,13 @@ main section .purple #download{
 
 main section .purple #download span{
     padding-right: 10px;
-    font-size: 23px;
     font-weight: bold;
    
 
 }
 
 main section .purple #open{
-    width: 350px;
+    width: 250px;
     padding: 10px 10px;
     background-color: #23272A;
     color: white;
@@ -174,15 +173,22 @@ main .container{
     height: 350px;
 }
 
+
 main .container .lightblue{
     flex-grow: 3;
-    background-color: #1E90FF;
+    background-image: url(../img/item1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
 
 }
 
 main .container .lightpink{
     flex-grow: 2;
-    background-color: #FFC0CB;
+}
+
+main .container .lightpink h2{
+    text-align: center;
+    font-size: 23px;
 }
 
 /* fine section bg-white */
