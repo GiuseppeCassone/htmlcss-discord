@@ -293,7 +293,6 @@ h3{
 main .bg-black{
     padding-top: 10px;
     padding-bottom: 20px;
-    border-bottom: 2px solid lightgray;
     background-color: #23272A;
     
 }
@@ -373,15 +372,25 @@ footer .container{
     justify-content: space-between;
     align-items: center;
     padding: 10px 0px;
+    border-top: 2px solid #798CDC;
 
-    background-color: #7FFFD4;
 }
 
 footer .container div{
     padding: 5px;
-
-    background-color: #F8AAB9;
 }
+
+footer .container div button{
+    height: 30px;
+    padding: 5px;
+    border-radius: 24px;
+    border: none;
+    background-color: #8EA2E1;
+    color: white;
+    font-family: 'Whitney', sans-serif;
+
+}
+
 /* fine footer */
 
 
