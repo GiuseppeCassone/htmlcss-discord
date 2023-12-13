@@ -248,13 +248,42 @@ main .bg-white .container .item3-text{
     text-align: center;
 }
 
+.green div{
+    max-width: 40%;
+    width: 100%;
+    height: 48px;
+    margin-top: 25px;
+    margin-bottom: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 10px;
+    padding-top: 35px;
+    text-align: center;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
 
 
+}
 
+h3{
+    font-size: 25px;
+}
 
+.bg-grey .green button{
+    width: 180px;
+    padding: 8px 10px;
+    border-radius: 24px;
+    border: none;
+    background-color: #8EA2E1;
+    color: white;
+    font-family: 'Whitney', sans-serif;
+    font-size: 16px;
+}
 
-
-
+.bg-grey .green button span{
+    padding-right: 8px;
+}
 
 /* fine seconda section bg-grey */
 
@@ -266,20 +295,63 @@ main .bg-black{
     padding-bottom: 20px;
     border-bottom: 2px solid lightgray;
     background-color: #23272A;
+    
 }
 
 
 main .bg-black .container .pink{
-    flex-grow: 2;
-    border: 1px dashed white;
-    background-color: #F08080;
+    max-width: 30%;
+    width: 100%;
+    color: white;
+    font-family: 'Whitney', sans-serif;
+
 }
 
-main .bg-black .container .aqua{
-    border: 1px dashed white;
-    flex-grow: 1;
-    background-color: #20B2AA;
+main .bg-black .container .pink h3{
+    margin-bottom: 20px;
+    padding-top: 50px;
+    padding-right: 40px;
+    color: #798CDC;
+    font-weight: 700;
+    font-size: 35px;
+}
 
+.bg-black .container .pink #language{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.bg-black .container .pink #language #flag{
+    width: 20px;
+    height: 15px;
+}
+
+.bg-black .container .pink #language div{
+    font-size: 12px;
+}
+
+.bg-black .container .pink #social{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.aqua{
+    padding-top: 50px;
+    flex-grow: 1;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Whitney', sans-serif;
+}
+
+.aqua .info{
+    color: #798CDC;
+}
+
+.aqua div{
+    margin-bottom: 10px;
 }
 /* fine section bg-black */
 
