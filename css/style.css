@@ -213,6 +213,10 @@ p{
     background-image: url(../img/wave.svg);
 }
 
+.rotate{
+    transform: rotate(180deg);
+}
+
 /* inizio prima section bg-grey  */
 
 main .bg-grey{
