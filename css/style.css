@@ -207,7 +207,13 @@ p{
 
 /* fine prima section bg-white */
 
-/* inizio prima section bg-grey */
+
+.waves{
+    height: 80px;
+    background-image: url(../img/wave.svg);
+}
+
+/* inizio prima section bg-grey  */
 
 main .bg-grey{
     background-color: #D3D3D3;
@@ -319,6 +325,7 @@ main .bg-black .container .pink h3{
     display: flex;
     align-items: center;
     gap: 5px;
+    margin-bottom: 15px;
 }
 
 .bg-black .container .pink #language #flag{
@@ -333,6 +340,12 @@ main .bg-black .container .pink h3{
 .bg-black .container .pink #social{
     display: flex;
     justify-content: flex-start;
+}
+
+.bg-black .container .pink #social img{
+    width: 30px;
+    height: 20px;
+    background-color: #23272A;
 }
 
 
