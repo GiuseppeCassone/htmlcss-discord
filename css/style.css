@@ -344,6 +344,8 @@ main .bg-black .container .pink h3{
 .bg-black .container .pink #social{
     display: flex;
     justify-content: flex-start;
+    gap: 20px;
+    margin-top: 20px;
 }
 
 .bg-black .container .pink #social img{
